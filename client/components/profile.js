@@ -6,7 +6,7 @@ const Profile = () => {
   return (
     <div it="title">
       Profile
-      <div id="username">Param {userId} </div>
+      <div id="username"> {userId} </div>
       <Link to="/dashboard"> Go To Root </Link>
       <Link to="/dashboard/main"> Go To Main</Link>
     </div>
