@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 const Header = () => {
   const [toggled, toggle] = useState(false)
+
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
@@ -26,7 +27,7 @@ const Header = () => {
       {toggled && (
         <div id="menu" className="block">
           <a
-            href="https://www.google.com/"
+            href="https://www.google.com"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
             <svg
