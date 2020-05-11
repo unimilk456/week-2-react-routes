@@ -28,6 +28,8 @@ const Header = () => {
         <div id="menu" className="block">
           <button
             type="button"
+            // eslint-disable-next-line react/no-string-refs
+            ref="https://www.google.com/"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
             <svg
