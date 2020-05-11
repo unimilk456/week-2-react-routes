@@ -5,7 +5,7 @@ const Profile = () => {
   const { userId } = useParams()
   return (
     <div>
-      <div it="title">Profile</div>
+      <div id="title">Profile</div>
       <div id="username"> {userId} </div>
       <Link to="/dashboard"> Go To Root </Link>
       <Link to="/dashboard/main"> Go To Main</Link>
